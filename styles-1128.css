@@ -26,8 +26,8 @@
         padding: 48px 0;
         display: flex;
         flex-flow: row;
-        width: 100%;
-        margin-left: -12px;
+        /* width: 100%; */
+        margin: 0 -12px;
     }
     .F-content {
         width: 25%;
