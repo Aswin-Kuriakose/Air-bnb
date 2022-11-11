@@ -116,18 +116,19 @@
         fill: #222;
     }
     .input-I {
-        padding-left: 6px;
-        margin: -1px;
+        padding-left: 8px;
+        margin-right: -1px;
         min-width: 80px;
     }
     .input-II ,.input-III {
-        margin: -1px;
+        margin-right: -1px;
         display: flex;
         align-items: center;
         min-width: 80px;
     }
     .input-child-flex {
         min-width: 80px;
+        margin: 0 -2px;
     }
     .content-inside {
         min-width: 80px !important;
@@ -136,7 +137,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         color: #717171;
-        padding: 0px 16px 0 18px;
+        padding: 0px 16px ;
     }
     .input-container div:last-child{
         color: #222;
@@ -173,7 +174,7 @@
     }
     /* nav */
     .nav-wrapper {
-        position: relative;
+        position: static;
     }
     nav {
         border-top: none !important;
